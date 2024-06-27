@@ -7,3 +7,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/admin8800/shell
 ```
 wget -N --no-check-certificate https://github.com/admin8800/shell/raw/main/vmess.sh && bash vmess.sh
 ```
+
+###  acme.sh 证书一键申请脚本
+
+```
+wget -N --no-check-certificate https://github.com/admin8800/shell/raw/main/acme.sh && bash acme.sh
+```
