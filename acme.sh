@@ -69,7 +69,7 @@ check_port_80() {
                 kill -9 $pid
                 ;;
             *)
-                echo "未释放端口，脚本将退出。"
+                echo "未释放端口，脚本退出，如需其他方式申请证书请寻找帮助。"
                 exit 1
                 ;;
         esac
@@ -79,7 +79,7 @@ check_port_80() {
 register_ca() {
     local ca="$1"
     local email="$2"
-    echo -e "\033[0;32m正在注册 CA 机构 $ca 使用电子邮件 $email...\033[0m"
+    echo -e "\033[0;32m正在注册 CA 机构 $ca 使用随机邮件 $email...\033[0m"
     ~/.acme.sh/acme.sh --register-account -m "$email" --server "$ca"
 }
 
