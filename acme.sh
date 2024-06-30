@@ -38,7 +38,7 @@ install_requirements() {
     fi
 }
 
-# 生成12位纯英文的随机邮箱
+# 生成随机邮箱
 generate_random_email() {
     local random_email=$(tr -dc 'a-z' < /dev/urandom | fold -w 12 | head -n 1)
     echo "${random_email}@gmail.com"
