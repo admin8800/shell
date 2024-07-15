@@ -147,11 +147,11 @@ main(){
     echo
     echo -e "${Info} root密码设置 ${Green}成功${Nc}
 ================================
-${Info} ssh端口 :      ${Red_globa} $sshport ${Nc}
+${Info} ssh端口 :  ${Green} $sshport ${Nc}
 ================================
-${Info} VPS用户名 :    ${Red_globa} root ${Nc}
+${Info} 用户名 :    ${Green} root ${Nc}
 ================================
-${Info} VPS root密码 : ${Red_globa} $passwd ${Nc}
+${Info} root密码 : ${Green} $passwd ${Nc}
 ================================"
     echo
 }
