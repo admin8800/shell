@@ -14,9 +14,6 @@ Error="${Red}[错误]${Nc}"
 Tip="${Yellow}[提示]${Nc}"
 
 
-echo -e "\033[0;32m正在检查系统版本。。。请稍等。。。。。。\033[0m"
-
-
 # 检查是否为root用户
 check_root(){
     if [ "$(id -u)" != "0" ]; then
