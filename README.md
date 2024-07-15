@@ -13,3 +13,8 @@ wget -N --no-check-certificate https://github.com/admin8800/shell/raw/main/vmess
 ```
 wget -N --no-check-certificate https://github.com/admin8800/shell/raw/main/acme.sh && bash acme.sh
 ```
+
+### 获取root权限并修改root密码
+```
+bash <(curl -sSL https://raw.githubusercontent.com/admin8800/shell/main/root.sh)
+```
