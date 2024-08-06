@@ -557,7 +557,7 @@ menu() {
     echo -e " ${GREEN}===================================${PLAIN} "
     echo -e "       ${GREEN}Hysteria 2 一键安装脚本${PLAIN}          "
     echo -e " ${GREEN}===================================${PLAIN} "
-    echo -e " ${GREEN}1.${PLAIN} 安装 Hysteria 2✨"
+    echo -e " ${GREEN}1.${PLAIN} 安装 Hysteria 2"
     echo -e " ${GREEN}2.${PLAIN} 卸载 Hysteria 2"
     echo " -------------"
     echo -e " ${GREEN}3.${PLAIN} 关闭、重启 Hysteria 2"
